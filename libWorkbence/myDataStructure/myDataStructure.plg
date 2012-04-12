@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: myDataStructure - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mang2\LOCALS~1\Temp\RSP4DB.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/myDataStructure.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\CodeSpace\C\mangCLibrary\libWorkbence\myDataStructure\myInsertToSingleList.cpp"
+"E:\CodeSpace\C\mangCLibrary\libWorkbence\myDataStructure\myInsertToSingleList2.cpp"
+"E:\CodeSpace\C\mangCLibrary\libWorkbence\myDataStructure\myPrintSingleList.cpp"
+"E:\CodeSpace\C\mangCLibrary\libWorkbence\myDataStructure\myQueue_DynamicArrays.cpp"
+"E:\CodeSpace\C\mangCLibrary\libWorkbence\myDataStructure\myStack_DynamicArrays.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mang2\LOCALS~1\Temp\RSP4DB.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\myDataStructure.lib"  .\Debug\myInsertToSingleList.obj .\Debug\myInsertToSingleList2.obj .\Debug\myPrintSingleList.obj .\Debug\myQueue_DynamicArrays.obj .\Debug\myStack_DynamicArrays.obj .\Debug\myBinaryTree_list.obj "
+<h3>Output Window</h3>
+Compiling...
+myInsertToSingleList.cpp
+myInsertToSingleList2.cpp
+myPrintSingleList.cpp
+myQueue_DynamicArrays.cpp
+myStack_DynamicArrays.cpp
+e:\codespace\c\mangclibrary\libworkbence\mydatastructure\myqueue_dynamicarrays.cpp(162) : warning C4715: 'first_Queue' : not all control paths return a value
+Creating library...
+
+
+
+<h3>Results</h3>
+myDataStructure.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
